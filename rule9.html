@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rule 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="navbar" id="navbar">
+        <div class="icon">
+            <h2 class="logo">Netiquettes</h2>
+        </div>
+        <div class="menu">
+            <ul>
+               <li><a href="rule1.html" class="bar1">RULE 1</a></li>
+                    <li><a href="rule2.html" class="bar2">RULE 2</a></li>
+                    <li><a href="rule3.html" class="bar2">RULE 3</a></li>
+                    <li><a href="rule4.html" class="bar2">RULE 4</a></li>
+                    <li><a href="rule5.html" class="bar2">RULE 5</a></li>
+                    <li><a href="rule6.html" class="bar2">RULE 6</a></li>
+                    <li><a href="rule7.html" class="bar2">RULE 7</a></li>
+                    <li><a href="rule8.html" class="bar2">RULE 8</a></li>
+                    <li><a href="rule9.html" class="bar2">RULE 9</a></li>
+                    <li><a href="rule10.html" class="bar3">RULE 10</a></li>
+                    <li><a href="game.html">GAME</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main rule-main">
+        <h1>RULE 9:</h1>
+    <p> <b>Don't abuse your power</b> <br>More knowledge doesn’t justify taking advantage of others.
+</p>
+        <a href="index.html" class="back-home">Back to Home</a>
+    </div>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const hamburger = document.getElementById('hamburger');
+        const navbar = document.getElementById('navbar');
+        if (hamburger && navbar) {
+            hamburger.addEventListener('click', function() {
+                if (navbar.style.display === "none" || navbar.style.display === "") {
+                    navbar.style.display = "block";
+                } else {
+                    navbar.style.display = "none";
+                }
+            });
+        }
+    });
+    </script>
+</body>
+</html>
