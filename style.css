@@ -278,13 +278,6 @@ main {
 }
 
 /* Members section */
-.game#members {
-  background: var(--card-bg);
-  border-radius: var(--border-radius);
-  box-shadow: var(--shadow);
-  padding: 24px 18px;
-  margin-bottom: 20px;
-}
 
 .game#members h2 {
   margin-top: 0;
@@ -442,4 +435,5 @@ main {
     padding: 40px 16px;
     text-align: center;
 }
+
 
