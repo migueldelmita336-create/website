@@ -177,7 +177,7 @@ ul li a:hover{
 }
 
 :root {
-  --primary-bg: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(2.jpg);
+  --primary-bg: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(2.jpg);
   --card-bg: #fff;
   --accent: orange;
   --accent-hover: white;
@@ -442,3 +442,4 @@ main {
     padding: 40px 16px;
     text-align: center;
 }
+
